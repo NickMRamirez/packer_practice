@@ -17,9 +17,9 @@
         "owners": ["099720109477"],
         "most_recent": true
       },
-      "instance_type": "t2.micro",
+      "instance_type": "t2.medium",
       "ssh_username": "ubuntu",
-      "ami_name": "docker-linux-{{timestamp}}"
+      "ami_name": "packer-ubuntu-docker"
     }],
     "provisioners": [{
       "type": "shell",
